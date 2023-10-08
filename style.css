@@ -1,23 +1,28 @@
 /* Add CSS styles here */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(20, 1fr);
-    grid-gap: 2px;
+    grid-template-columns: repeat(50, 0fr);
+    grid-gap: 0px;
+    /* border:2px solid red; */
 }
 
 .grid-cell {
     width: 20px;
     height: 20px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     text-align: center;
-    line-height: 20px;
+    /* line-height: 20px; */
+    background-color: gray;
 }
 
 .babyblue {
-    width: 30px;
+    width: 90px;
     height: 30px;
     background-color: blue;
     position: absolute;
+    top:50%;left:50%;
     border-radius: 50%;
-    
+    color:white;
+    text-align: center;
+    cursor: pointer;
 }
