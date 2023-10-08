@@ -1,4 +1,7 @@
-/* Add CSS styles here */
+* {
+    padding:0 0;
+    margin: 0 0;
+}
 .grid-container {
     display: grid;
     grid-template-columns: repeat(50, 0fr);
@@ -16,7 +19,7 @@
 }
 
 .babyblue {
-    width: 90px;
+    width: 30px;
     height: 30px;
     background-color: blue;
     position: absolute;

@@ -90,10 +90,6 @@ function dragBabyBlue(babyblue, babyblueObj) {
     window.addEventListener('resize', updateAndLogRect);
 }
 
-
-
-
-
 // Function to update grid cells when a baby blue element is dragged over them
 function updateGridCells(babyblue, coveredCells, babyblueObj) {
     const gridCells = document.querySelectorAll('.grid-cell');
